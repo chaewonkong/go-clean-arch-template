@@ -1,6 +1,6 @@
 package main
 
-import "nass-admin-go/cmd"
+import "github.com/chaewonkong/go-clean-arch-template/cmd"
 
 func main() {
 	cmd.Execute()

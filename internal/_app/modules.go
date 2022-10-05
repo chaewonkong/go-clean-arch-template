@@ -2,7 +2,8 @@ package app
 
 import (
 	"context"
-	"nass-admin-go/internal/_app/controllers"
+
+	"github.com/chaewonkong/go-clean-arch-template/internal/_app/controllers"
 
 	"github.com/labstack/echo"
 	"go.uber.org/fx"

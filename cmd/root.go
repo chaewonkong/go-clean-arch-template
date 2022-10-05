@@ -2,8 +2,9 @@ package cmd
 
 import (
 	"log"
-	app "nass-admin-go/internal/_app"
 	"os"
+
+	app "github.com/chaewonkong/go-clean-arch-template/internal/_app"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/fx"
@@ -12,9 +13,9 @@ import (
 const version = "2.0.0"
 
 var rootCmd = &cobra.Command{
-	Use:     "nass-admin-api",
+	Use:     "go-clean-arch-template",
 	Version: version,
-	Short:   "nass-admin-api CLI",
+	Short:   "go-clean-arch-template",
 	Run: func(cmd *cobra.Command, args []string) {
 		// fx를 이용해 Dependency Injection을 하며 서버 애플리케이션 구동
 		fx.New(app.Modules).Run()
