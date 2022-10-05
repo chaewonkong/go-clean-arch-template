@@ -54,4 +54,4 @@ Overall architectures are as follows(On Update):
 
 ## Maintainer
 
-- @chaewonkong
+- [@chaewonkong](https://github.com/chaewonkong)
