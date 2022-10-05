@@ -47,3 +47,11 @@ Overall architectures are as follows(On Update):
 ├── makefile
 └── pkg
 ```
+
+## License
+
+- MIT
+
+## Maintainer
+
+- @chaewonkong
