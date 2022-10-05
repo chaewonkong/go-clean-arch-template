@@ -14,7 +14,7 @@ Uses Echo, Gorm, uber-go/fx.
 
 Inspired by [golang-standars/project-layout](https://github.com/golang-standards/project-layout).
 
-Checked [go-clean-arch](https://github.com/bxcodec/go-clean-arch/tree/master/article) for an option, yet it seemed a little bit unfarmiliar to Java/Spring developers.
+Checked [go-clean-arch](https://github.com/bxcodec/go-clean-arch) for an option, yet it seemed a little bit unfarmiliar to Java/Spring developers.
 
 Created template based on project-layout, however implemented popular clean architecture layout(Popular in Korea).
 Intended to provide more comfortable and farmiliar environment for other developers.
