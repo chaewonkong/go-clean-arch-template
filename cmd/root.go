@@ -17,12 +17,12 @@ var rootCmd = &cobra.Command{
 	Version: version,
 	Short:   "go-clean-arch-template",
 	Run: func(cmd *cobra.Command, args []string) {
-		// fx를 이용해 Dependency Injection을 하며 서버 애플리케이션 구동
+		// Run server with dependencies injected by fx
 		fx.New(app.Modules).Run()
 	},
 }
 
-// 서버 실행
+// Start server
 func Execute() {
 	if err := rootCmd.Execute(); err != nil {
 		log.Fatal(err)
